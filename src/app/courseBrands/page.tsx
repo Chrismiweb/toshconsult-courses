@@ -54,7 +54,7 @@ export default function CourseBrands(){
                 </div>
             </div>
             <div className="flex flex-col justify-center py-[30px] items-center">
-                <h1 className="md:text-[40px] text-[30px] font-bold w-[80%] lg:w-[45%] text-center">Elevate Your Skills, Transform Your Future</h1>
+                <h1 className="md:text-[40px] text-[30px] text-black font-bold w-[80%] lg:w-[45%] text-center">Elevate Your Skills, Transform Your Future</h1>
                 <p className="lg:w-[50%] w-[85%] text-[#000000B2] text-center text-[16px] lg:text-[12px] font-semibold">At Toshconsult, we are committed to shaping your tech skills and empowering your career. Explore the unique benefits that set us apart and pave the way for your success.</p>
             </div>
             <div className="w-[80%] py-[50px] gap-[30px] flex flex-col md:grid md:grid-cols-2 lg:grid lg:grid-cols-3">

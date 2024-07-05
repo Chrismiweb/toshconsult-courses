@@ -52,7 +52,7 @@ export default function CourseReview(){
                                         <Image src={review[currentState].pics} alt="" />
                                     </div>
                                     <div>
-                                        <p className="font-semibold text-[19px]">{review[currentState].name}</p>
+                                        <p className="font-semibold text-black text-[19px]">{review[currentState].name}</p>
                                         <p className="text-[#000000B2] text-[13px] font-medium">{review[currentState].position}</p>
 
                                     </div>
