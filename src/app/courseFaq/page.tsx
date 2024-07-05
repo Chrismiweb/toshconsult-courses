@@ -64,7 +64,7 @@ export default function CourseFaq(){
             <div className="md:w-[80%] w-[90%] flex flex-col gap-[30px] justify-center items-center">
                 {questions.map((q, index)=>(
                     <div className="w-[90%] md:w-[80%]">
-                        <div onClick={()=>handleAnswe(index)} key={index} className="flex items-center justify-between px-[100px] w-[100%]">
+                        <div onClick={()=>handleAnswe(index)} key={index} className="flex items-center justify-between md:px-[50px] lg:px-[100px] w-[100%]">
                             <div className="flex gap-[20px] justify-center items-center">
                                 <h1 className="font-bold text-[23px]">{q.number}</h1>
                                 <p className="font-semibold text-[13px]">{q.questiob}</p>
@@ -74,7 +74,7 @@ export default function CourseFaq(){
                         </div>
                         {
                             answer === index && 
-                            <div className="w-[100%] py-[25px] px-[120px] justify-center items-center flex">
+                            <div className="w-[100%] py-[25px] md:px-[50px] lg:px-[100px] justify-center items-center flex">
                                 <p className="font-semibold text-[13px]">{q.answer}</p>
                             </div>
                         }

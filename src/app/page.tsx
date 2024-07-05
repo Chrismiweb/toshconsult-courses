@@ -6,6 +6,8 @@ import AllCourses from "./allCourses/page";
 import CourseService from "./courseService/page";
 import Footer from "./footer/page";
 import CourseFaq from "./courseFaq/page";
+import CourseEnroll from "./courseEnroll/page";
+import CourseReview from "./courseReview/page";
 
 export default function Home() {
   return (
@@ -15,7 +17,9 @@ export default function Home() {
           <CourseBrands/>
           <AllCourses/>
           <CourseService/>
+          <CourseReview/>
           <CourseFaq/>
+          <CourseEnroll/>
           <Footer/>
 
       </>
