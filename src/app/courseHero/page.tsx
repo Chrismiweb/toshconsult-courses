@@ -16,7 +16,7 @@ export default function CourseHero(){
                 <div className="flex flex-col  gap-[20px] justify-center items-center">
                     <div className="text-center font-semibold border-1 border-[#FB9B02] px-[15px] rounded-[30px] py-[5px] border bg-[#FEF3C7]">Welcome To ToshConsult</div>
                     <h1 className="text-center w-[100%] text-[60px] font-bold">Where Tech Dreams Take Flight!</h1>
-                    <p className="text-center text-[#000000B2] font-medium w-[100%] text-[18px] lg:text-[16px]">Dive into the Future of Tech Education. Select Your Course, Apply Instantly, and Let's Begin the Transformation Journey Together!</p>
+                    <p className="text-center text-[#000000B2] font-medium w-[100%] text-[18px] lg:text-[16px]">Dive into the Future of Tech Education. Select Your Course, Apply Instantly, and Let&apos;s Begin the Transformation Journey Together!</p>
                 </div>
                 <div className="w-[25%] h-[180px] hidden lg:flex">
                     <Image src ={img2} alt =''/>
