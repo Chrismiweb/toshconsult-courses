@@ -4,6 +4,7 @@ import CourseHero from "./courseHero/page";
 import CourseBrands from "./courseBrands/page";
 import AllCourses from "./allCourses/page";
 import CourseService from "./courseService/page";
+import Footer from "./footer/page";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
           <CourseBrands/>
           <AllCourses/>
           <CourseService/>
+          <Footer/>
       </>
   );
 }
