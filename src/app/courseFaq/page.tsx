@@ -63,7 +63,7 @@ export default function CourseFaq(){
             </div>
             <div className="md:w-[80%] w-[90%] flex flex-col gap-[30px] justify-center items-center">
                 {questions.map((q, index)=>(
-                    <div className="w-[90%] md:w-[80%]">
+                    <div key={index} className="w-[90%] md:w-[80%]">
                         <div onClick={()=>handleAnswe(index)} key={index} className="flex items-center justify-between md:px-[50px] lg:px-[100px] w-[100%]">
                             <div className="flex gap-[20px] justify-center items-center">
                                 <h1 className="font-bold text-[23px]">{q.number}</h1>
