@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { MdMenu } from "react-icons/md";
+import { IoClose } from "react-icons/io5";
 
 export default function Navbar() {
     const [menu, setMenu] = useState(false);
@@ -28,7 +29,7 @@ export default function Navbar() {
                 <div>
                     <Image className="w-[18vw] md:w-[7vw]" src={logo} alt="Logo" />
                 </div>
-                <div className='hidden md:flex md:items-center md:justify-center md:gap-8 md:font-medium md:text-sm'>
+                <div className='hidden lg:flex md:items-center md:justify-center md:gap-8 md:font-medium md:text-sm'>
                     <Link href='/'><p className="text-white">Home</p></Link>
                     <div 
                         onMouseOver={() => showDropdown('courses')} 
@@ -60,12 +61,12 @@ export default function Navbar() {
                     </div>
                 </div>
                 <Link href='/contact'>
-                    <button className='hidden md:flex py-2 px-6 text-sm rounded-xl font-bold hover:bg-[#dd9015] transition duration-300 text-white bg-[#FB9B02]'>Apply Now</button>
+                    <button className='hidden lg:flex py-2 px-6 text-sm rounded-xl font-bold hover:bg-[#dd9015] transition duration-300 text-white bg-[#FB9B02]'>Apply Now</button>
                 </Link>
-                <button onClick={toggleMenu} className="text-white text-3xl lg:hidden"><MdMenu /></button>
+                <button onClick={toggleMenu} className="text-white text-3xl lg:hidden">{menu ? <IoClose/> : <MdMenu/>} </button>
             </div>
             {menu && (
-                <div className='flex flex-col h-[100vh] gap-[20px] pt-[30px] items-center md:hidden'>
+                <div className='flex flex-col h-[100vh] gap-[20px] pt-[30px] items-center lg:hidden'>
                     <Link href='/'><p className="text-white text-[20px] font-semibold">Home</p></Link>
                     <div 
                         onClick={() => showDropdown('courses')} 
@@ -94,7 +95,7 @@ export default function Navbar() {
                         )}
                     </div>
                     <Link href='/contact'>
-                        <button className='py-2 text-sm rounded-xl text-[20px] font-semibold font-bold hover:bg-[#dd9015] transition duration-300 text-white px-6 bg-[#FB9B02]'>Apply Now</button>
+                        <button className='py-2 text-sm rounded-xl text-[20px] font-semibold  hover:bg-[#dd9015] transition duration-300 text-white px-6 bg-[#FB9B02]'>Apply Now</button>
                     </Link>
                 </div>
             )}

@@ -4,7 +4,7 @@ import img from '../image/tabler-icon-circle-check-filled.png'
 
 export default function AllCourseProps2(props:any){
     return(
-        <div className = "w-[45%] rounded-t-[20px] h-[450px] bg-[#FEF3C7] py-[20px] px-[50px]">
+        <div className = " md:w-[45%] w-[100%]  rounded-t-[20px] lg:h-[450px] bg-[#FEF3C7] py-[20px] px-[25px] lg:px-[50px]">
             <h1 className="font-bold text-[30px] text-black">{props.header} </h1>
             <p className="text-[12px] text-[#000000B2] font-semibold">{props.text}</p>
             <div className="flex mt-[40px] gap-[40px]">
