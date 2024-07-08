@@ -30,7 +30,10 @@ export default function AllCourseProps(props:any){
                     <p className="text-black text-[16px] font-bold ">{props.duration}</p>
                 </div>
             </div>
+            <a href="/frontend">
             <button className="bg-black mt-[30px] text-[13px] text-white py-[10px] px-[30px] rounded-[25px]">{props.btn}</button>
+
+            </a>
         </div>
     )
 }
