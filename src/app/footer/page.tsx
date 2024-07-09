@@ -51,7 +51,7 @@ export default function Footer(){
         }
     ]
     return(
-        <div className='custom-gradien bg-black gap-[50px] lg:gap-[20px] w-[100%] flex flex-col border-t-2 py-[40px] justify-center items-center'>
+        <div className='custom-gradien bg-black gap-[50px] lg:gap-[20px] w-[100%] flex flex-col py-[40px] justify-center items-center'>
             <div className='lg:w-[80%] w-[90%] gap-[40px] flex lg:flex-row flex-col justify-between lg:items-center '>
                 <div>
                     <Image className='lg:w-[7vw] w-[30%]' src={logo} alt="" />

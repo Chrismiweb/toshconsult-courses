@@ -78,7 +78,7 @@ export default function FrontendPackages(){
                 <h1 className="md:text-[40px] text-[30px] text-black font-bold w-[80%] lg:w-[45%] text-center">Our curated frontend development courses</h1>
                 <p className="lg:w-[50%] w-[85%] text-[#000000B2] text-center text-[16px] lg:text-[12px] font-semibold">At Toshconsult, we are committed to shaping your tech skills and empowering your career. Explore the unique benefits that set us apart and pave the way for your success.</p>
             </div>
-            <div className='w-[100%] gap-[100px] flex flex-col justify-center items-center'>
+            <div className='w-[100%] gap-[100px] pb-[100px] flex flex-col justify-center items-center'>
                 {packages.map((p, index)=>(
                     <div key={index} className='flex w-[95%]  lg:w-[70%]'>
                         <div className='absolute w-[80%] md:w-[400px] md:h-[350px]'>
