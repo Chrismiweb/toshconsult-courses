@@ -6,6 +6,7 @@ import img2 from '../image/Group 15.png'
 import img3 from '../image/Group 16 (1).png'
 import img4 from '../image/Group 17.png'
 import { useState, useEffect } from 'react'
+import Link from 'next/link';
 
 export default function Footer(){
     const [year, setYear] = useState(Number);
@@ -14,44 +15,8 @@ export default function Footer(){
       const date = new Date().getFullYear();
       setYear(date)
     }, [])
-    
-    const footMenu = [
-        {
-            head: "Contact",
-            page1:"Enquiries: support@toshconsultinc.com",
-            page2:"Partnership: partnership@toshconsultinc.com",
-            page3: "Admin: admin@toshconsultinc.com"
-        },
-        {
-            head: "Product",
-            page1:"TismaBiz",
-            page2:"FreeQuery",
-            page3: "FalconPay",
-            page4: "Alphabills",
-            page5: "SmartFarmers",
-            page6: "EasyTechAfrica",
-            page7: "Course For Children",
-        },
-        {
-            head: "Servcies",
-            page1:"Website Development",
-            page2:"Mobile App Development",
-            page3: "Digital Marketing",
-            page4: "Software Development",
-            page5: "UI/UX Design",
-            page6: "SEO Management",
-            page7: "Social Media Management",
-        },
-        {
-            head: "About",
-            page1:"About Us",
-            page2:"Contact Us",
-            page3: "FAQ",
-            
-        }
-    ]
     return(
-        <div className='custom-gradien bg-black gap-[50px] lg:gap-[20px] w-[100%] flex flex-col py-[40px] justify-center items-center'>
+        <div className='custom-gradient bg-black gap-[50px] lg:gap-[20px] w-[100%] flex flex-col border-t-2 py-[40px] justify-center items-center'>
             <div className='lg:w-[80%] w-[90%] gap-[40px] flex lg:flex-row flex-col justify-between lg:items-center '>
                 <div>
                     <Image className='lg:w-[7vw] w-[30%]' src={logo} alt="" />
@@ -64,18 +29,37 @@ export default function Footer(){
                 </div>
             </div>
             <div className='lg:w-[80%] w-[90%] flex flex-col lg:flex-row justify-between '>
-                {footMenu.map((menu, index)=>(
-                <div key={index} className='py-[30px] flex flex-col gap-3'>
-                    <h1 className='lg:text-[22px] text-[30px] text-black font-semibold'>{menu.head}</h1>
-                    <p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>{menu.page1}</p>
-                    <p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>{menu.page2}</p>
-                    <p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>{menu.page3}</p>
-                    <p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>{menu.page4}</p>
-                    <p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>{menu.page5}</p>
-                    <p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>{menu.page6}</p>
-                    <p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>{menu.page7}</p>
+                <div className='py-[30px] flex flex-col gap-3'>
+                    <h1 className='lg:text-[22px] text-white text-[30px]  font-semibold'>Contact</h1>
+                    <p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>Enquiries: support@toshconsultinc.com</p>
+                    <p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>Partnership: partnership@toshconsultinc.com</p>
+                    <p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>Admin: admin@toshconsultinc.com</p>
                 </div>
-                ))}
+                <div className='py-[30px] flex flex-col gap-3'>
+                    <h1 className='lg:text-[22px] text-[30px] text-white font-semibold'>Product</h1>
+                    <Link href="/"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>TismaBiz</p></Link>
+                    <Link href="/"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>FreeQuery</p></Link>
+                    <Link href="/"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>FalconPay</p></Link>
+                    <Link href="/"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>Alphabills</p></Link>
+                    <Link href="/"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>SmartFarmers</p></Link>
+                    <Link href="/"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>EasyTechAfrica</p></Link>
+                    <Link href="/"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>Course For Children</p></Link>
+                </div>
+                <div className='py-[30px] flex flex-col gap-3'>
+                    <h1 className='lg:text-[22px] text-[30px] text-white font-semibold'>Services</h1>
+                    <Link href="/webDevService"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>Website Development</p></Link>
+                    <Link href="/mobileAppService"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>Mobile App Development</p></Link>
+                    <Link href="serviceUiUx/"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>UI/UX Design</p></Link>
+                    <Link href="/digMarService"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>Digital Marketing</p></Link>
+                    <Link href="/softDevService"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>Software Development</p></Link>
+                    <Link href="/consultingService"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>Consulting</p></Link>
+                </div>
+                <div className='py-[30px] flex flex-col gap-3'>
+                    <h1 className='lg:text-[22px] text-[30px] text-white font-semibold'>About</h1>
+                    <Link href="/about"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>About Us</p></Link>
+                    <Link href="/contact"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>Contact Us</p></Link>
+                    <Link href="/faq"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>FAQ</p></Link>
+                </div>
             </div>
             <div className='w-[90%] lg:w-[80%] flex flex-col gap-[10px]'>
                 <p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2]'>30B, Ibrahim Taiwo Road, Ilorin, Kwara, NG</p>
