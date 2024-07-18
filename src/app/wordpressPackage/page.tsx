@@ -1,17 +1,16 @@
-import img1 from '../image/Rectangle 32.png'
-import img2 from '../image/Rectangle 33.png'
-import img3 from '../image/Rectangle 34.png'
-
+import img1 from '../image/digital.jpg'
+import img2 from '../image/monetization.png'
+import img3 from '../image/email.png'
 
 import Image from "next/image"
 import { IoCheckmarkOutline } from "react-icons/io5";
 import { LuDot } from "react-icons/lu";
-export default function BackendPackages(){
+export default function WordpressPackages(){
     const packages = [
         {
             img: img1,
-            topic: "MongoDB and Mongoose",
-            sub: "The beginners courses to be a pro. in javascript",
+            topic: "Digital Marketing Fundamentals",
+            sub: "The beginners courses to be a pro. in Figma",
             price: "50,000",
             discount: "50% OFF",
             fprice :"N100,000",
@@ -31,11 +30,11 @@ export default function BackendPackages(){
         },
         {
             img: img2,
-            topic: "Back End Development and APIs Projects",
-            sub: "The beginners courses to be a pro. in javascript",
-            price: "50,000",
-            discount: "50% OFF",
-            fprice :"N100,000",
+            topic: "Content Creation & Monetization",
+            sub: "The beginners courses to be a pro. in Adobe XD",
+            // price: "50,000",
+            // discount: "50% OFF",
+            // fprice :"N100,000",
             mark: <IoCheckmarkOutline/>,
             crs1: "Data Fetching",
             crs2: "Varaible",
@@ -50,10 +49,11 @@ export default function BackendPackages(){
             btn1: "Request Code",
             btn2:"Start Course"
         },
+        
         {
             img: img3,
-            topic: "Basic Node and Express",
-            sub: "The beginners courses to be a pro. in javascript",
+            topic: "Email Marketing",
+            sub: "The beginners courses to be a pro. in wireframing, prototyping, and user testing",
             price: "50,000",
             discount: "50% OFF",
             fprice :"N100,000",
@@ -75,14 +75,14 @@ export default function BackendPackages(){
     return(
         <div className="w-[100%] bg-white flex flex-col justify-center items-center ">
             <div className="flex flex-col justify-center py-[30px] items-center">
-                <h1 className="md:text-[40px] text-[30px] text-black font-bold w-[80%] lg:w-[45%] text-center">Our curated backend development courses</h1>
+                <h1 className="md:text-[40px] text-[30px] text-black font-bold w-[80%] lg:w-[45%] text-center">Our curated UI/UX design courses</h1>
                 <p className="lg:w-[50%] w-[85%] text-[#000000B2] text-center text-[16px] lg:text-[12px] font-semibold">At Toshconsult, we are committed to shaping your tech skills and empowering your career. Explore the unique benefits that set us apart and pave the way for your success.</p>
             </div>
             <div className='w-[100%] gap-[100px] pb-[100px] flex flex-col justify-center items-center'>
                 {packages.map((p, index)=>(
                     <div key={index} className='flex w-[95%]  lg:w-[70%]'>
                         <div className='absolute w-[80%] md:w-[400px] md:h-[350px]'>
-                            <Image className='w-[100%] h-[100%]' src={p.img} alt="" />
+                            <Image className='w-[100%] rounded-[20px] h-[100%]' src={p.img} alt="" />
                         </div>
                         <div className='relative w-[90%] h-[100%] left-[25px] top-[20px] rounded-[20px] py-[40px] shadow-2xl px-[20px] bg-white md:left-[250px] md:top-[30px]  md:w-[480px]'>
                             <div className='w-[100%] flex flex-wrap md:flex-nowrap  justify-between items-center'>

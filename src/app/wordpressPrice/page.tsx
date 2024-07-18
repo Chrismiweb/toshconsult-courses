@@ -1,8 +1,8 @@
-export default function FrontendAchievement(){
+export default function WordpressPrice(){
     const list = [
         {
             head: "Course Price",
-            rate: "₦100,000",
+            rate: "₦70,000",
             // content: "Reach more than 3,000 students around the nigeria."
         },
         {

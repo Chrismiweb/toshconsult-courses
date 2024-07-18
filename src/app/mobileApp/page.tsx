@@ -8,17 +8,18 @@ import CourseEnroll from "../courseEnroll/page";
 import Footer from "../footer/page";
 
 import Navbar from "../navbar/page";
-import BackendPric from "../backendPric/page";
+import MobileAppHero from "../mobileAppHero/page";
+import FrontendAchievement from "../frontendAchievement/page";
+import MobileAppPackages from "../mobileAppPackages/page";
+import MobileAppPrice from "../mobileAppPrice/page";
 
-export default function Backend(){
+export default function MobileApp(){
     return(
         <>
             <Navbar/>
-            <BackendHero/>
-            <BackendSect2/>
-            <BackendPric/>
-            <BackendPackages/>
-            
+            <MobileAppHero/>
+            <MobileAppPrice/>
+            <MobileAppPackages/>
             <FrontendWhy/>
             <FrontendSteps/>
             <FrontendReview/>

@@ -1,4 +1,4 @@
-export default function FrontendAchievement(){
+export default function UiuxPrice(){
     const list = [
         {
             head: "Course Price",

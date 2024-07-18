@@ -33,9 +33,9 @@ export default function FrontendPackages(){
             img: img2,
             topic: "Fundamental HTML, CSS Framework",
             sub: "The beginners courses to be a pro. in javascript",
-            price: "50,000",
-            discount: "50% OFF",
-            fprice :"N100,000",
+            // price: "50,000",
+            // discount: "50% OFF",
+            // fprice :"N100,000",
             mark: <IoCheckmarkOutline/>,
             crs1: "Data Fetching",
             crs2: "Varaible",
@@ -91,10 +91,10 @@ export default function FrontendPackages(){
                                     <p className='text-[12px] text-[#00000080] font-semibold'>{p.sub}</p>
                                 </div>
                                 <div className='w-[50%]'>
-                                    <p className='font-bold text-[15px] md:text-[20px] text-black'>{p.price}</p>
+                                    {/* <p className='font-bold text-[15px] md:text-[20px] text-black'>{p.price}</p> */}
                                     <div className='flex w-[100%] justify-between items-center '>
-                                        <p className='bg-[#FB9B02] text-[10px] rounded-[5px] px-[5px] font-semibold text-white'>{p.discount}</p>
-                                        <p className='font-semibold text-[15px] line-through'>{p.fprice}</p>
+                                        {/* <p className='bg-[#FB9B02] text-[10px] rounded-[5px] px-[5px] font-semibold text-white'>{p.discount}</p> */}
+                                        {/* <p className='font-semibold text-[15px] line-through'>{p.fprice}</p> */}
                                     </div>
                                 </div>
                             </div>

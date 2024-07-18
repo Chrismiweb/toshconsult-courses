@@ -1,6 +1,8 @@
 import { IoIosCheckmarkCircle } from "react-icons/io";
 import Image from "next/image";
 import img from '../image/tabler-icon-circle-check-filled.png'
+import Link from "next/link";
+// import AllCourseProps from "../allCourseProps/page";
 
 export default function AllCourseProps2(props:any){
     return(
@@ -30,7 +32,13 @@ export default function AllCourseProps2(props:any){
                     <p className="text-black text-[16px] font-bold ">{props.duration}</p>
                 </div>
             </div>
-            <button className="bg-black mt-[30px] text-[13px] text-white py-[10px] px-[30px] rounded-[25px]">{props.btn}</button>
+            <Link href={props.link}>
+
+            <button className="bg-black hover:bg-white hover:text-black transition-all duration-500 mt-[30px] text-[13px] text-white py-[10px] px-[30px] rounded-[25px]">Get Started</button>
+            </Link>
         </div>
     )
 }
+AllCourseProps2.defaultProps = {
+    link: "",
+  };

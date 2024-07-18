@@ -6,19 +6,23 @@ import FrontendSteps from "../frontendSteps/page";
 import FrontendReview from "../frontendReview/page";
 import CourseEnroll from "../courseEnroll/page";
 import Footer from "../footer/page";
-
 import Navbar from "../navbar/page";
-import BackendPric from "../backendPric/page";
+import PythonHero from "../pythonHero/page";
+import PythonPrice from "../pythonPrice/page";
+import PythonPackages from "../pythonPackages/page";
+import UiuxHero from "../uiuxHero/page";
+import UiuxPrice from "../uiuxPrice/page";
+import UiuxPackages from "../uiuxPackages/page";
 
-export default function Backend(){
+
+
+export default function MobileApp(){
     return(
         <>
             <Navbar/>
-            <BackendHero/>
-            <BackendSect2/>
-            <BackendPric/>
-            <BackendPackages/>
-            
+            <UiuxHero/>
+            <UiuxPrice/>
+            <UiuxPackages/>
             <FrontendWhy/>
             <FrontendSteps/>
             <FrontendReview/>

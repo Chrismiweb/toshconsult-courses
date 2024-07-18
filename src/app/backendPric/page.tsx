@@ -1,9 +1,9 @@
-export default function FrontendAchievement(){
+export default function BackendPric(){
     const list = [
         {
             head: "Course Price",
-            rate: "₦100,000",
-            // content: "Reach more than 3,000 students around the nigeria."
+            rate: "₦150,000",
+            content: "Reach more than 3,000 students around the nigeria."
         },
         {
             head: "Students onboard",
