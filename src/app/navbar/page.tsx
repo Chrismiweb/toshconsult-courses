@@ -100,15 +100,15 @@ export default function Navbar() {
                     >
                         <p className="text-white flex text-[20px] font-semibold items-center cursor-pointer">Course <RiArrowDropDownLine className="text-white font-bold text-lg" /></p>
                         {course && (
-                           <div className=" flex-col justify-center items-center gap-[15px] flex w-[90%] top-full  bg-black shadow-lg mt-2 py-2 rounded z-50">
-                           <Link href='/frontend'><p className="text-white flex text-[15px] font-semibold items-center cursor-pointer">Frontend Devlopment</p></Link>
-                           <Link href='/backend'><p className="text-white flex text-[15px] font-semibold items-center cursor-pointer">Backend Development</p></Link>
-                           <Link href='/mobileApp'><p className="text-white flex text-[15px] font-semibold items-center cursor-pointer">Mobile App Development</p></Link>
-                           <Link href='/python'><p className="text-white flex text-[15px] font-semibold items-center cursor-pointer">Python Full-Stack Development</p></Link>
-                           <Link href='/javascript'><p className="text-white flex text-[15px] font-semibold items-center cursor-pointer">JavaScript Full-stack Development</p></Link>
-                           <Link href='/uiux'><p className="text-white flex text-[15px] font-semibold items-center cursor-pointer">UI/UX Design Fundamentals Course</p></Link>
-                           <Link href='/digmark'><p className="text-white flex text-[15px] font-semibold items-center cursor-pointer">Digital Marketing Course</p></Link>
-                           <Link href='/wordpress'><p className="text-white flex text-[15px] font-semibold items-center cursor-pointer">Wordpress Development Course</p></Link>
+                           <div className=" flex-col justify-center items-center gap-[18px] flex w-[90%] top-full  bg-black shadow-lg mt-2 py-2 rounded z-50">
+                           <Link href='/frontend'><p className="text-white flex text-[18px] font-semibold items-center cursor-pointer">Frontend Devlopment</p></Link>
+                           <Link href='/backend'><p className="text-white flex text-[18px] font-semibold items-center cursor-pointer">Backend Development</p></Link>
+                           <Link href='/mobileApp'><p className="text-white flex text-[18px] font-semibold items-center cursor-pointer">Mobile App Development</p></Link>
+                           <Link href='/python'><p className="text-white flex text-[18px] font-semibold items-center cursor-pointer">Python Full-Stack Development</p></Link>
+                           <Link href='/javascript'><p className="text-white flex text-[18px] font-semibold items-center cursor-pointer">JavaScript Full-stack Development</p></Link>
+                           <Link href='/uiux'><p className="text-white flex text-[18px] font-semibold items-center cursor-pointer">UI/UX Design Fundamentals Course</p></Link>
+                           <Link href='/digmark'><p className="text-white flex text-[18px] font-semibold items-center cursor-pointer">Digital Marketing Course</p></Link>
+                           <Link href='/wordpress'><p className="text-white flex text-[18px] font-semibold items-center cursor-pointer">Wordpress Development Course</p></Link>
 
                            </div>
                         )}
