@@ -116,7 +116,7 @@ export default function Navbar() {
                         )}
                     </div>
                 </div>
-                <Link href='/contact'>
+                <Link href='/formPage'>
                     <button className='hidden lg:flex py-2 px-6 text-sm rounded-xl font-bold hover:bg-[#dd9015] transition duration-300 text-white bg-[#FB9B02]'>Apply Now</button>
                 </Link>
                 <button onClick={toggleMenu} className="text-white text-3xl lg:hidden">{menu ? <IoClose/> : <MdMenu/>} </button>
@@ -150,7 +150,7 @@ export default function Navbar() {
                             </div>
                         )}
                     </div>
-                    <Link href='/contact'>
+                    <Link href='/formPage'>
                         <button className='py-2 text-sm rounded-xl text-[20px] font-semibold  hover:bg-[#dd9015] transition duration-300 text-white px-6 bg-[#FB9B02]'>Apply Now</button>
                     </Link>
                 </div>
