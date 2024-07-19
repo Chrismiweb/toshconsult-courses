@@ -5,51 +5,39 @@ export default function CourseFaq(){
     const questions = [
         {
             number : "01.",
-            questiob : "Frequently asked question",
-            answer : "At Toshconsult, we are committed to shaping your tech skills and empowering your career. Explore the unique benefits that set us apart and pave the way for your success.",
+            question:"Will there be any assignments or projects?",
+            answer: "Yes, the course will likely include hands-on assignments and projects to solidify your learning. You'll build practical applications and apply your newly acquired skills.",
             icon : "+"
         },
         {
             number : "02.",
-            questiob : "Frequently asked question",
-            answer : "At Toshconsult, we are committed to shaping your tech skills and empowering your career. Explore the unique benefits that set us apart and pave the way for your success.",
+            question:"Will I receive a certificate upon completion?",
+            answer: "Upon successful completion of the course, you will receive a certificate of completion for your training",
 
             icon : "+"
         },
         {
             number : "03.",
-            questiob : "Frequently asked question",
-            answer : "At Toshconsult, we are committed to shaping your tech skills and empowering your career. Explore the unique benefits that set us apart and pave the way for your success.",
+            question:"What resources will be provided to support my learning?",
+            answer: "We will provide you additional resources such as online tutorials, code repositories, or access to online forums and communities to continue learning after the course.",
 
             icon : "+"
         },
         {
             number : "04.",
-            questiob : "Frequently asked question",
-            answer : "At Toshconsult, we are committed to shaping your tech skills and empowering your career. Explore the unique benefits that set us apart and pave the way for your success.",
+            question : "What are the career support options after completing the course?",
+            answer : "We provide career guidance services, portfolio building workshops, and connections with potential employers to help you start your career.",
 
             icon : "+"
         },
         {
             number : "05.",
-            questiob : "Frequently asked question",
-            answer : "At Toshconsult, we are committed to shaping your tech skills and empowering your career. Explore the unique benefits that set us apart and pave the way for your success.",
+            question: "Is there any one-on-one support available during the course?",
+            answer : "Yes, at Toshconsult Technology Inc we offer access to instructors and teaching assistants for additional guidance and support during your learning journey.",
 
             icon : "+"
         },
-        {
-            number : "06.",
-            questiob : "Frequently asn",
-            answer : "At Toshconsult, we are committed to shaping your tech skills and empowering your career. Explore the unique benefits that set us apart and pave the way for your success.",
-
-            icon : "+"
-        },
-        {
-            number : "07.",
-            questiob : "Frequently asked question",
-            answer : "At Toshconsult, we are committed to shaping your tech skills and empowering your career. Explore the unique benefits that set us apart and pave the way for your success.",
-            icon : "+"
-        },
+        
     ]
     const [answer, setAnswer] = useState(null)
     function handleAnswe(indexes:any){
@@ -67,7 +55,7 @@ export default function CourseFaq(){
                         <div onClick={()=>handleAnswe(index)} key={index} className="flex cursor-pointer items-center justify-between md:px-[50px] lg:px-[100px] w-[100%]">
                             <div className="flex gap-[20px] justify-center items-center">
                                 <h1 className="font-bold text-black text-[23px]">{q.number}</h1>
-                                <p className="font-semibold text-black text-[13px]">{q.questiob}</p>
+                                <p className="font-semibold text-black text-[13px]">{q.question}</p>
                             </div>
                             <button className=" w-[35px] text-black h-[35px] flex justify-center items-center text-[20px] rounded-full border-black border-2">{answer === index ? "-" : q.icon}</button>
 

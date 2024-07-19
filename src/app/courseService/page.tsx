@@ -3,7 +3,7 @@ import icon2 from '../image/Group 29.png'
 import icon3 from '../image/Group 26.png'
 import icon4 from '../image/Group 28.png'
 import icon5 from '../image/Group 27.png'
-
+import Link from 'next/link'
 
 import Image from 'next/image'
 export default function CourseService(){
@@ -50,7 +50,10 @@ export default function CourseService(){
                         </div>
                 ))}
                 <div>
+                    <Link href ="/formPage">
                     <button className="flex font-bold text-[18px] justify-center py-[12px] rounded-[20px] text-white items-center gap-[10px] bg-black px-[20px]">Reach Out</button>
+                    
+                    </Link>
                 </div>
             </div>
         </div>
