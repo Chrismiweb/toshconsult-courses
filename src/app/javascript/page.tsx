@@ -12,7 +12,13 @@ import PythonPrice from "../pythonPrice/page";
 import PythonPackages from "../pythonPackages/page";
 import JavascriptHero from "../javascriptHero/page";
 import JavascriptPackages from "../javascriptPackages/page";
+import type { Metadata } from "next";
 
+
+export const metadata: Metadata = {
+    title: "Javascript Full-Stack Development | Toshconsult Technologies Inc",
+    description: "Want to learn Javascript? Build entire websites! Become a Javascript Full-Stack Developer. Learn front-end, back-end & databases. Code your dream career!",
+  };
 
 
 export default function MobileApp(){

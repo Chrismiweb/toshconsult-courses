@@ -15,6 +15,12 @@ import UiuxPrice from "../uiuxPrice/page";
 import UiuxPackages from "../uiuxPackages/page";
 import DigMarkHero from "../digmarkHero/page";
 import DigPackages from "../digMarkPackages/page";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Digital Marketing | Toshconsult Technologies Inc",
+    description: "Launch your digital marketing career! Master the skills to grow brands online. Learn SEO, social media, and analytics. Become a sought-after marketing pro.",
+  };
 
 
 

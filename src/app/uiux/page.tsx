@@ -13,6 +13,13 @@ import PythonPackages from "../pythonPackages/page";
 import UiuxHero from "../uiuxHero/page";
 import UiuxPrice from "../uiuxPrice/page";
 import UiuxPackages from "../uiuxPackages/page";
+import type { Metadata } from "next";
+
+
+export const metadata: Metadata = {
+    title: "UI/UX Design | Toshconsult Technologies Inc",
+    description: "Craft experiences users love! Become a UI/UX designer. Learn design, usability, and turn ideas into intuitive interfaces. Design your future!",
+  };
 
 
 

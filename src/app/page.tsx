@@ -8,6 +8,13 @@ import Footer from "./footer/page";
 import CourseFaq from "./courseFaq/page";
 import CourseEnroll from "./courseEnroll/page";
 import CourseReview from "./courseReview/page";
+import type { Metadata } from "next";
+
+
+export const metadata: Metadata = {
+    title: "Course page | Toshconsult Technologies Inc",
+    description: "Unlock your potential and achieve your goals with our comprehensive Digtial courses. Enroll now and start learning!",
+  };
 
 export default function Home() {
   return (

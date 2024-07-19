@@ -9,6 +9,13 @@ import Footer from "../footer/page";
 
 import Navbar from "../navbar/page";
 import BackendPric from "../backendPric/page";
+import type { Metadata } from "next";
+
+
+export const metadata: Metadata = {
+    title: "Backend Development | Toshconsult Technologies Inc",
+    description: "Unleash the power behind the scenes. Become a Backend Developer and craft the server-side logic that drives modern applications. Gain in-demand skills and build a fulfilling career. Enroll now! ",
+  };
 
 export default function Backend(){
     return(

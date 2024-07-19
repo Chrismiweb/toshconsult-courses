@@ -12,10 +12,17 @@ import UiuxPackages from "../uiuxPackages/page";
 import WordpressHero from "../wordpressHero/page";
 import WordpressPrice from "../wordpressPrice/page";
 import WordpressPackages from "../wordpressPackage/page";
+import type { Metadata } from "next";
+
+
+export const metadata: Metadata = {
+    title: "Wordpress Development | Toshconsult Technologies Inc",
+    description: "Love building websites? WordPress powers millions! Become a developer - craft themes, plugins & more. Build a career in high demand. Get started today!",
+  };
 
 
 
-export default function MobileApp(){
+export default function Wordpress(){
     return(
         <>
             <Navbar/>

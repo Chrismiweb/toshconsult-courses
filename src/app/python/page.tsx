@@ -10,7 +10,13 @@ import Navbar from "../navbar/page";
 import PythonHero from "../pythonHero/page";
 import PythonPrice from "../pythonPrice/page";
 import PythonPackages from "../pythonPackages/page";
+import type { Metadata } from "next";
 
+
+export const metadata: Metadata = {
+    title: "Python Full-Stack Development | Toshconsult Technologies Inc",
+    description: "Love Python? Build entire websites! Become a Python Full-Stack Developer. Learn front-end, back-end & databases. Code your dream career!",
+  };
 
 
 export default function MobileApp(){
