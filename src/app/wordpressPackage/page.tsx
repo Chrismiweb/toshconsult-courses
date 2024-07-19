@@ -100,40 +100,40 @@ export default function WordpressPackages(){
                             <div className='flex flex-wrap w-[80%] gap-[20px] py-[20px]'>
                                 <div className='flex justify-center items-center gap-[8px]'>
                                     <p className='text-black font-bold'>{p.mark}</p>
-                                    <p className='font-semibold text-[13px]'>{p.crs1}</p>
+                                    <p className='font-semibold text-black text-[13px]'>{p.crs1}</p>
                                 </div>
                                 <div className='flex justify-center items-center gap-[8px]'>
                                     <p className='text-black font-bold'>{p.mark}</p>
-                                    <p className='font-semibold text-[13px]'>{p.crs2}</p>
+                                    <p className='font-semibold text-black text-[13px]'>{p.crs2}</p>
                                 </div>
                                 <div className='flex justify-center items-center gap-[8px]'>
                                     <p className='text-black font-bold'>{p.mark}</p>
-                                    <p className='font-semibold text-[13px]'>{p.crs3}</p>
+                                    <p className='font-semibold  text-black text-[13px]'>{p.crs3}</p>
                                 </div>
                                 <div className='flex justify-center items-center gap-[8px]'>
                                     <p className='text-black font-bold'>{p.mark}</p>
-                                    <p className='font-semibold text-[13px]'>{p.crs4}</p>
+                                    <p className='font-semibold text-black text-[13px]'>{p.crs4}</p>
                                 </div>
                                 <div className='flex justify-center items-center gap-[8px]'>
                                     <p className='text-black font-bold'>{p.mark}</p>
-                                    <p className='font-semibold text-[13px]'>{p.crs5}</p>
+                                    <p className='font-semibold text-black text-[13px]'>{p.crs5}</p>
                                 </div>
                                 <div className='flex justify-center items-center gap-[8px]'>
                                     <p className='text-black font-bold'>{p.mark}</p>
-                                    <p className='font-semibold text-[13px]'>{p.crs6}</p>
+                                    <p className='font-semibold text-black text-[13px]'>{p.crs6}</p>
                                 </div>
                             </div>
                             <div className='w-[100%] flex-wrap py-[15px] flex gap-[30px]'>
                                 <div className='flex '>
-                                    <p>{p.dot}</p>
+                                    <p className='text-black'>{p.dot}</p>
                                     <p className='font-bold text-black text-[13px]'>{p.beginner}</p>
                                 </div>
                                 <div className='flex '>
-                                    <p>{p.dot}</p>
+                                    <p className='text-black'>{p.dot}</p>
                                     <p className='font-bold text-black text-[13px]'>{p.dur}</p>
                                 </div>
                                 <div className='flex '>
-                                    <p>{p.dot}</p>
+                                    <p className='text-black'>{p.dot}</p>
                                     <p className='font-bold text-black text-[13px]'>{p.time}</p>
                                 </div>
                             </div>
