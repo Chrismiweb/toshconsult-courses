@@ -3,7 +3,7 @@ import img1 from '../image/Rectangle 3.png'
 import img2 from '../image/Rectangle 5.png'
 import img3 from '../image/Rectangle 4.png'
 import img4 from '../image/Rectangle 6.png'
-
+import Link from "next/link"
 
 
 export default function CourseHero(){
@@ -26,7 +26,10 @@ export default function CourseHero(){
                 <div>
                     <Image className="w-[16vw] md:w-[12vw]" src ={img3} alt =''/>
                 </div>
+                <Link href = "/formPage">
                 <button className="bg-black text-white text-[15px] rounded-[30px] py-[10px] px-[20px]">Get Started</button>
+                
+                </Link>
                 <div>
                     <Image className="w-[16vw] md:w-[12vw]" src ={img4} alt =''/>
                 </div>

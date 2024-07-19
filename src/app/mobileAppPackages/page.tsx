@@ -6,6 +6,7 @@ import img3 from '../image/expo.png'
 import Image from "next/image"
 import { IoCheckmarkOutline } from "react-icons/io5";
 import { LuDot } from "react-icons/lu";
+import Link from 'next/link';
 export default function MobileAppPackages(){
     const packages = [
         {
@@ -139,8 +140,15 @@ export default function MobileAppPackages(){
                                 </div>
                             </div>
                             <div className='w-[100%] flex md:flex-row flex-col gap-[20px] pt-[10px] justify-end md:pr-[40px]'>
+                            <Link href = "/formPage">
                                 <button className='bg-[#FB9B02] text-white font-semibold py-[10px] px-[20px] text-[13px] rounded-[30px]'>{p.btn1}</button>
+                                
+                                </Link>
+                                <Link href = "/formPage">
+
                                 <button className='bg-[black] text-white font-semibold py-[10px] px-[20px] text-[13px] rounded-[30px]'>{p.btn2}</button>
+                                
+                                </Link>
 
                                 
                             </div>
