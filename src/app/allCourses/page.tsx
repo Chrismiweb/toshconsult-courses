@@ -11,7 +11,7 @@ export default function AllCourses(){
             <div className="lg:w-[80%] w-[90%] gap-3 flex md:flex-row flex-col">
                 {/* these are the props  */}
                 <AllCourseProps
-                    header = "Frontend Development Masterclass"
+                    header = "Frontend Development"
                     text = "Dive into the world of frontend development. Learn HTML, CSS, and JavaScript. Master popular frameworks like React and Vue.js. Create responsive, user-friendly interfaces."
                     curriculum ="Course Price"
                     img = {mark}
@@ -23,7 +23,7 @@ export default function AllCourses(){
                     link = "/frontend"
                 />
                 <AllCourseProps2
-                    header = "Backend Development Masterclass"
+                    header = "Backend Development"
                     text = "Explore server-side technologies, databases, and server management. Dive into languages like Node.js, Ruby on Rails, or Django. Build robust backend systems for web applications."
                     curriculum ="Course Price"
                     img = {mark}
