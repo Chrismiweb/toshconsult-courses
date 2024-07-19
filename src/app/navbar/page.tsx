@@ -37,9 +37,11 @@ export default function Navbar() {
     return (
         <div className='custom-gradient bg-black w-full flex-col justify-center flex items-center'>
             <div className="w-4/5 py-5 flex justify-between items-center">
+                <Link href='/'>
                 <div>
                     <Image className="w-[18vw] md:w-[7vw]" src={logo} alt="Logo" />
                 </div>
+                </Link>
                 <div className='hidden lg:flex md:items-center md:justify-center md:gap-8 md:font-medium md:text-sm'>
                     <Link href='/'><p className="text-white">Home</p></Link>
                     <div 
