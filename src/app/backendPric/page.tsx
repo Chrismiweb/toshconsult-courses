@@ -3,7 +3,7 @@ export default function BackendPric(){
         {
             head: "Course Price",
             rate: "₦150,000",
-            content: "Reach more than 3,000 students around the nigeria."
+            // content: "Reach more than 3,000 students around the nigeria."
         },
         {
             head: "Students onboard",
