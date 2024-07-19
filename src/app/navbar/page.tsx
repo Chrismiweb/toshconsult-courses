@@ -10,10 +10,20 @@ import { IoClose } from "react-icons/io5";
 
 export default function Navbar() {
     const [menu, setMenu] = useState(false);
+    const [course, setCourse] = useState(false);
+    const [resource, setResource] = useState(false);
+
+    
     const [dropdown, setDropdown] = useState({ courses: false, resources: false });
 
     function toggleMenu() {
         setMenu(!menu);
+    }
+    function toggleCourse(){
+        setCourse(!course)
+    }
+    function toggleResource(){
+        setResource(!resource)
     }
 
     function showDropdown(key: string) {
@@ -33,82 +43,41 @@ export default function Navbar() {
                 <div className='hidden lg:flex md:items-center md:justify-center md:gap-8 md:font-medium md:text-sm'>
                     <Link href='/'><p className="text-white">Home</p></Link>
                     <div 
-                        onMouseOver={() => showDropdown('courses')} 
-                        onMouseLeave={() => hideDropdown('courses')} 
+                        // onMouseOver={() => showDropdown('courses')} 
+                        // onMouseLeave={() => hideDropdown('courses')} 
+                        // onClick={()=> showDropdown('courses')}
+                        onClick={toggleCourse}
                         className="relative"
                     >
                         <p className="text-white flex items-center cursor-pointer">Course <RiArrowDropDownLine className="text-white font-bold text-lg" /></p>
-                        {dropdown.courses && (
-                            <div className="absolute gap-[20px] flex flex-wrap w-[400px] top-full left-0 bg-white shadow-lg mt-2 py-2 rounded z-50">
-                                <Link href='/frontend'>
-                                <div className="flex gap-[10px] w-[50%] cursor-pointer justify-center items-center">
-                                    <div className="w-[10%]">
-                                        <Image className="w-[100%]" src={img1} alt="" />
-                                    </div>
-                                    <p className="text-black text-[12px]">Frontend development</p>
-                                </div>
-                                </Link>
-                                <Link href='/frontend'>
-                                <div className="flex gap-[10px] w-[50%]  cursor-pointer justify-center items-center">
-                                    <div className="w-[10%]">
-                                        <Image className="w-[100%]" src={img1} alt="" />
-                                    </div>
-                                    <p className="text-black text-[12px]">Backend development</p>
-                                </div>
-                                </Link>
-                                <Link href='/frontend'>
-                                <div className="flex gap-[10px] cursor-pointer justify-center items-center">
-                                    <div className="w-[10%]">
-                                        <Image className="w-[100%]" src={img1} alt="" />
-                                    </div>
-                                    <p className="text-black text-[12px]">UI/UX design</p>
-                                </div>
-                                </Link>
-                                <Link href='/frontend'>
-                                <div className="flex gap-[10px] cursor-pointer justify-center items-center">
-                                    <div className="w-[10%]">
-                                        <Image className="w-[100%]" src={img1} alt="" />
-                                    </div>
-                                    <p className="text-black text-[12px]">Mobile app development</p>
-                                </div>
-                                </Link>
-                                <Link href='/frontend'>
-                                <div className="flex gap-[10px] cursor-pointer justify-center items-center">
-                                    <div className="w-[10%]">
-                                        <Image className="w-[100%]" src={img1} alt="" />
-                                    </div>
-                                    <p className="text-black text-[12px]">Python fullstack</p>
-                                </div>
-                                </Link>
-                                <Link href='/frontend'>
-                                <div className="flex gap-[10px] cursor-pointer justify-center items-center">
-                                    <div className="w-[10%]">
-                                        <Image className="w-[100%]" src={img1} alt="" />
-                                    </div>
-                                    <p className="text-black text-[12px]">Wordpress development</p>
-                                </div>
-                                </Link>
-                                <Link href='/frontend'>
-                                <div className="flex gap-[10px] cursor-pointer justify-center items-center">
-                                    <div className="w-[10%]">
-                                        <Image className="w-[100%]" src={img1} alt="" />
-                                    </div>
-                                    <p className="text-black text-[12px]">Javascript fullstack</p>
-                                </div>
-                                </Link>
-                               
+                        {course && (
+                            <div className="absolute grid grid-cols-2 w-[500px] top-full left-0 bg-white shadow-lg mt-2 py-2 rounded z-50">
+                            <Link href='/frontend'><p className="text-black px-4 py-2 hover:bg-gray-200">Frontend Devlopment</p></Link>
+                            <Link href='/backend'><p className="text-black px-4 py-2 hover:bg-gray-200">Backend Development</p></Link>
+                            <Link href='/mobileApp'><p className="text-black px-4 py-2 hover:bg-gray-200">Mobile App Development</p></Link>
+                            <Link href='/python'><p className="text-black px-4 py-2 hover:bg-gray-200">Python Full-Stack Development</p></Link>
+                            <Link href='/javascript'><p className="text-black px-4 py-2 hover:bg-gray-200">JavaScript Full-stack Development</p></Link>
+                            <Link href='/uiux'><p className="text-black px-4 py-2 hover:bg-gray-200">UI/UX Design Fundamentals Course</p></Link>
+                            <Link href='/digmark'><p className="text-black px-4 py-2 hover:bg-gray-200">Digital Marketing Course</p></Link>
+                            <Link href='/wordpress'><p className="text-black px-4 py-2 hover:bg-gray-200">Wordpress Development Course</p></Link>
+
+
+
                             </div>
+                
                         )}
                     </div>
-                    <Link href='/'><p className="text-white">About</p></Link>
+                    <Link href='/about'><p className="text-white">About</p></Link>
                     <Link href='/'><p className="text-white">Students Project</p></Link>
                     <div 
-                        onMouseOver={() => showDropdown('resources')} 
-                        onMouseLeave={() => hideDropdown('resources')} 
+                        // onMouseOver={() => showDropdown('resources')} 
+                        // onMouseLeave={() => hideDropdown('resources')} 
+                        // onClick={()=>showDropdown('resources')}
+                        onClick={toggleResource}
                         className="relative"
                     >
                         <p className="text-white flex items-center cursor-pointer">Resources <RiArrowDropDownLine className="text-white font-bold text-lg" /></p>
-                        {dropdown.resources && (
+                        {resource && (
                             <div className="absolute top-full left-0 bg-white shadow-lg mt-2 py-2 rounded z-50">
                                 <Link href='/resource1'><p className="text-black px-4 py-2 hover:bg-gray-200">Resource 1</p></Link>
                                 <Link href='/resource2'><p className="text-black px-4 py-2 hover:bg-gray-200">Resource 2</p></Link>
@@ -122,18 +91,26 @@ export default function Navbar() {
                 <button onClick={toggleMenu} className="text-white text-3xl lg:hidden">{menu ? <IoClose/> : <MdMenu/>} </button>
             </div>
             {menu && (
-                <div className='flex flex-col h-[100vh] gap-[20px] pt-[30px] items-center lg:hidden'>
+                <div className='flex w-[100%] flex-col h-[100vh] gap-[20px] pt-[30px] items-center lg:hidden'>
                     <Link href='/'><p className="text-white text-[20px] font-semibold">Home</p></Link>
                     <div 
-                        onClick={() => showDropdown('courses')} 
-                        className="relative"
+                        // onClick={() => showDropdown('courses')} 
+                        onClick={toggleCourse}
+                        className="relative w-[100%] flex-col flex justify-center items-center"
                     >
                         <p className="text-white flex text-[20px] font-semibold items-center cursor-pointer">Course <RiArrowDropDownLine className="text-white font-bold text-lg" /></p>
-                        {dropdown.courses && (
-                            <div className="absolute top-full left-0 bg-white shadow-lg mt-2 py-2 rounded">
-                                <Link href='/course1'><p className="text-black text-[20px] font-semibold px-4 py-2 hover:bg-gray-200">Course 1</p></Link>
-                                <Link href='/course2'><p className="text-black text-[20px] font-semibold px-4 py-2 hover:bg-gray-200">Course 2</p></Link>
-                            </div>
+                        {course && (
+                           <div className=" flex-col justify-center items-center gap-[15px] flex w-[90%] top-full  bg-black shadow-lg mt-2 py-2 rounded z-50">
+                           <Link href='/frontend'><p className="text-white flex text-[15px] font-semibold items-center cursor-pointer">Frontend Devlopment</p></Link>
+                           <Link href='/backend'><p className="text-white flex text-[15px] font-semibold items-center cursor-pointer">Backend Development</p></Link>
+                           <Link href='/mobileApp'><p className="text-white flex text-[15px] font-semibold items-center cursor-pointer">Mobile App Development</p></Link>
+                           <Link href='/python'><p className="text-white flex text-[15px] font-semibold items-center cursor-pointer">Python Full-Stack Development</p></Link>
+                           <Link href='/javascript'><p className="text-white flex text-[15px] font-semibold items-center cursor-pointer">JavaScript Full-stack Development</p></Link>
+                           <Link href='/uiux'><p className="text-white flex text-[15px] font-semibold items-center cursor-pointer">UI/UX Design Fundamentals Course</p></Link>
+                           <Link href='/digmark'><p className="text-white flex text-[15px] font-semibold items-center cursor-pointer">Digital Marketing Course</p></Link>
+                           <Link href='/wordpress'><p className="text-white flex text-[15px] font-semibold items-center cursor-pointer">Wordpress Development Course</p></Link>
+
+                           </div>
                         )}
                     </div>
                     <Link href='/'><p className="text-white text-[20px] font-semibold">About</p></Link>
@@ -145,8 +122,8 @@ export default function Navbar() {
                         <p className="text-white flex text-[20px] font-semibold items-center cursor-pointer">Resources <RiArrowDropDownLine className="text-white font-bold text-lg" /></p>
                         {dropdown.resources && (
                             <div className="absolute top-full left-0 bg-white shadow-lg mt-2 py-2 rounded">
-                                <Link href='/resource1'><p className="text-black text-[20px] font-semibold px-4 py-2 hover:bg-gray-200">Resource 1</p></Link>
-                                <Link href='/resource2'><p className="text-black text-[20px] font-semibold px-4 py-2 hover:bg-gray-200">Resource 2</p></Link>
+                                {/* <Link href='/resource1'><p className="text-black text-[20px] font-semibold px-4 py-2 hover:bg-gray-200">Resource 1</p></Link>
+                                <Link href='/resource2'><p className="text-black text-[20px] font-semibold px-4 py-2 hover:bg-gray-200">Resource 2</p></Link> */}
                             </div>
                         )}
                     </div>
