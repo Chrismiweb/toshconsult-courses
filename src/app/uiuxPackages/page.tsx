@@ -87,16 +87,16 @@ export default function UiuxPackages(){
                         <div className='relative w-[90%] h-[100%] left-[25px] top-[20px] rounded-[20px] py-[40px] shadow-2xl px-[20px] bg-white md:left-[250px] md:top-[30px]  md:w-[480px]'>
                             <div className='w-[100%] flex flex-wrap md:flex-nowrap  justify-between items-center'>
                                 <div className='flex flex-col w-[100%] '>
-                                    <h1 className='font-bold text-black w-[100%] text-[25px] md:w-[80%] '>{p.topic}</h1>
+                                    <h1 className='font-bold text-black w-[100%] text-[20px] md:text-[25px] md:w-[80%] '>{p.topic}</h1>
                                     <p className='text-[12px] text-[#00000080] font-semibold'>{p.sub}</p>
                                 </div>
-                                <div className='w-[50%]'>
-                                    {/* <p className='font-bold text-[15px] md:text-[20px] text-black'>{p.price}</p> */}
+                                {/* <div className='w-[50%]'>
+                                    <p className='font-bold text-[15px] md:text-[20px] text-black'>{p.price}</p>
                                     <div className='flex w-[100%] justify-between items-center '>
-                                        {/* <p className='bg-[#FB9B02] text-[10px] rounded-[5px] px-[5px] font-semibold text-white'>{p.discount}</p> */}
-                                        {/* <p className='font-semibold text-[15px] line-through'>{p.fprice}</p> */}
+                                        <p className='bg-[#FB9B02] text-[10px] rounded-[5px] px-[5px] font-semibold text-white'>{p.discount}</p>
+                                        <p className='font-semibold text-[15px] line-through'>{p.fprice}</p>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                             <div className='flex flex-wrap w-[80%] gap-[20px] py-[20px]'>
                                 <div className='flex justify-center items-center gap-[8px]'>

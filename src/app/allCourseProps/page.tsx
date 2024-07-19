@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function AllCourseProps(props:any){
     return(
         <div className = "md:w-[55%] w-[100%]  rounded-t-[20px] lg:h-[450px] bg-[#F8E7F8] py-[20px] px-[25px] lg:px-[50px]">
-            <h1 className="font-bold text-[30px] text-black">{props.header} </h1>
+            <h1 className="font-bold text-[23px] md:text-[30px] text-black">{props.header} </h1>
             <p className="text-[12px] text-[#000000B2] font-semibold">{props.text}</p>
             <div className="flex mt-[40px] gap-[40px]">
                 <div className="flex gap-[10px] flex-col">

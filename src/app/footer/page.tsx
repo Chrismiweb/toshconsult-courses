@@ -35,7 +35,7 @@ export default function Footer(){
                     <p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>Partnership: partnership@toshconsultinc.com</p>
                     <p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>Admin: admin@toshconsultinc.com</p>
                 </div>
-                <div className='py-[30px] flex flex-col gap-3'>
+                {/* <div className='py-[30px] flex flex-col gap-3'>
                     <h1 className='lg:text-[22px] text-[30px] text-white font-semibold'>Product</h1>
                     <Link href="/"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>TismaBiz</p></Link>
                     <Link href="/"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>FreeQuery</p></Link>
@@ -44,15 +44,19 @@ export default function Footer(){
                     <Link href="/"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>SmartFarmers</p></Link>
                     <Link href="/"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>EasyTechAfrica</p></Link>
                     <Link href="/"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>Course For Children</p></Link>
-                </div>
+                </div> */}
                 <div className='py-[30px] flex flex-col gap-3'>
-                    <h1 className='lg:text-[22px] text-[30px] text-white font-semibold'>Services</h1>
-                    <Link href="/webDevService"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>Website Development</p></Link>
-                    <Link href="/mobileAppService"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>Mobile App Development</p></Link>
-                    <Link href="serviceUiUx/"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>UI/UX Design</p></Link>
-                    <Link href="/digMarService"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>Digital Marketing</p></Link>
-                    <Link href="/softDevService"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>Software Development</p></Link>
-                    <Link href="/consultingService"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>Consulting</p></Link>
+                    <h1 className='lg:text-[22px] text-[30px] text-white font-semibold'>Courses</h1>
+                    <Link href="/frontend"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>Frontend Development</p></Link>
+                    <Link href="/backend"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>Backend Development</p></Link>
+                    <Link href="/mobileApp"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>Mobile App Development</p></Link>
+                    <Link href="/uiux"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>UI/UX Design</p></Link>
+                    <Link href="/digmark"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>Digital Marketing</p></Link>
+                    <Link href="/python"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>Python Full-Stack Development</p></Link>
+                    <Link href="/javascript"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>Javascript Full-Stack Development</p></Link>
+                    <Link href="/wordpress"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>Wordpress Development</p></Link>
+
+
                 </div>
                 <div className='py-[30px] flex flex-col gap-3'>
                     <h1 className='lg:text-[22px] text-[30px] text-white font-semibold'>About</h1>
