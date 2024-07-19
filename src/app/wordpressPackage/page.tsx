@@ -1,6 +1,6 @@
-import img1 from '../image/digital.jpg'
-import img2 from '../image/monetization.png'
-import img3 from '../image/email.png'
+import img1 from '../image/wordpress.png'
+import img2 from '../image/wordpress2.png'
+import img3 from '../image/wordpress3.png'
 
 import Image from "next/image"
 import { IoCheckmarkOutline } from "react-icons/io5";
@@ -9,18 +9,17 @@ export default function WordpressPackages(){
     const packages = [
         {
             img: img1,
-            topic: "Digital Marketing Fundamentals",
-            sub: "The beginners courses to be a pro. in Figma",
+            topic: "Worpress Fundamentals",
+            sub: "The beginners courses to be a pro. in Worpress",
             price: "50,000",
             discount: "50% OFF",
             fprice :"N100,000",
             mark: <IoCheckmarkOutline/>,
-            crs1: "Data Fetching",
-            crs2: "Varaible",
-            crs3: "mapping",
-            crs4: "Looping",
-            crs5: "JSON",
-            crs6: "Data Objext",
+            crs1: "Theme Development",
+            crs2: "Widgets & Sidebars",
+            crs3: "User Management",
+            crs4: "Custom Post Types",
+            crs5: "Taxonomies & Custom Taxonomies",
             dot: <LuDot/>,
             beginner: "Beginner",
             dur: "3 weeks",
@@ -30,18 +29,18 @@ export default function WordpressPackages(){
         },
         {
             img: img2,
-            topic: "Content Creation & Monetization",
-            sub: "The beginners courses to be a pro. in Adobe XD",
+            topic: "Wordpress Development Skills",
+            sub: "The beginners courses to be a pro. in Wordpress Development Skills",
             // price: "50,000",
             // discount: "50% OFF",
             // fprice :"N100,000",
             mark: <IoCheckmarkOutline/>,
-            crs1: "Data Fetching",
-            crs2: "Varaible",
-            crs3: "mapping",
-            crs4: "Looping",
-            crs5: "JSON",
-            crs6: "Data Objext",
+            crs1: "Child Themes",
+            crs2: "Version Control (Git)",
+            crs3: "Security Best Practices",
+            crs4: "Plugins",
+            crs5: "Performance Optimization",
+            crs6: "Project Management",
             dot: <LuDot/>,
             beginner: "Beginner",
             dur: "3 weeks",
@@ -52,18 +51,18 @@ export default function WordpressPackages(){
         
         {
             img: img3,
-            topic: "Email Marketing",
-            sub: "The beginners courses to be a pro. in wireframing, prototyping, and user testing",
+            topic: "WordPress Administration Panel",
+            sub: "The beginners courses to be a pro. in WordPress Administration Panel",
             price: "50,000",
             discount: "50% OFF",
             fprice :"N100,000",
             mark: <IoCheckmarkOutline/>,
-            crs1: "Data Fetching",
-            crs2: "Varaible",
-            crs3: "mapping",
-            crs4: "Looping",
-            crs5: "JSON",
-            crs6: "Data Objext",
+            crs1: "Installing and Using Themes",
+            crs2: "Plugin Configuration",
+            crs3: "Basic Backups and Security",
+            crs4: "Managing User Permissions",
+            crs5: "Managing Categories and Tags",
+            crs6: "Permalinks",
             dot: <LuDot/>,
             beginner: "Beginner",
             dur: "3 weeks",
