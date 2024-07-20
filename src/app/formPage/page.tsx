@@ -36,7 +36,7 @@ export default function FormPage(){
             })
             .then((res)=>(res.json))
         if(response){
-            console.log(response.message)
+            // console.log(response.message)
             // console.log(response.message)
             toast.success("Your Message have been sent successfully"); 
             setIsSending(false)
