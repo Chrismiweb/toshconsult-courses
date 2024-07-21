@@ -44,13 +44,13 @@ export default function CourseBrands(){
     ]
     return(
         <div className="w-[100%] bg-white flex flex-col justify-center items-center">
-            <div className="flex flex-col px-[30px] gap-[40px] justify-center items-center py-[60px]">
+            <div className="flex flex-col px-[30px] w-[100%] gap-[40px] justify-center items-center py-[60px]">
                 <p className="text-center text-black font-semibold text-[18px] lg:text-[15px]">Loves by brands and partners</p>
-                <div className="flex gap-[30px]">
-                    <Image src={img} alt =''/>
-                    <Image src={img} alt =''/>
-                    <Image src={img} alt =''/>
-                    <Image src={img} alt =''/>
+                <div className="flex flex-wrap w-[100%] justify-center items-center gap-[5px] lg:gap-[30px]">
+                    <Image className="w-[50px] md:w-[150px]" src={img} alt =''/>
+                    <Image className="w-[50px] md:w-[150px]" src={img} alt =''/>
+                    <Image className="w-[50px] md:w-[150px]" src={img} alt =''/>
+                    <Image className="w-[50px] md:w-[150px]" src={img} alt =''/>
                 </div>
             </div>
             <div className="flex flex-col justify-center py-[30px] items-center">

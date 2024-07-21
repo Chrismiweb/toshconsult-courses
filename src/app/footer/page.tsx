@@ -58,18 +58,27 @@ export default function Footer(){
 
 
                 </div>
-                <div className='py-[30px] flex flex-col gap-3'>
+                {/* <div className='py-[30px] flex flex-col gap-3'>
                     <h1 className='lg:text-[22px] text-[30px] text-white font-semibold'>About</h1>
                     <Link href="/about"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>About Us</p></Link>
                     <Link href="/contact"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>Contact Us</p></Link>
                     <Link href="/faq"><p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2] cursor-pointer'>FAQ</p></Link>
+                </div> */}
+                {/* <div className=' flex flex-col gap-[10px]'> */}
+                <div className='py-[30px] flex flex-col gap-3'>
+
+                <h1 className='lg:text-[22px] text-[30px] text-white font-semibold'>Info</h1>
+
+                    <p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2]'>30B, Ibrahim Taiwo Road, Ilorin, Kwara, NG</p>
+                    <p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2]'>08103856846</p>
+                    <p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2]'>info@toshconsult.com</p>
                 </div>
             </div>
-            <div className='w-[90%] lg:w-[80%] flex flex-col gap-[10px]'>
+            {/* <div className='w-[90%] lg:w-[80%] flex flex-col gap-[10px]'>
                 <p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2]'>30B, Ibrahim Taiwo Road, Ilorin, Kwara, NG</p>
                 <p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2]'>08103856846</p>
                 <p className='lg:text-[13px] text-[18px] font-semibold text-[#FFFFFFB2]'>info@toshconsult.com</p>
-            </div>
+            </div> */}
             <h1 className='lg:text-[13px] text-[18px] text-center py-[30px] font-semibold text-[#FFFFFFB2] w-[90%]'>Copyright © 2015 - {year} || All Rights Reserved.</h1>
         </div>
     )

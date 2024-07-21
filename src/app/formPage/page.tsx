@@ -47,7 +47,6 @@ export default function FormPage(){
             // console.log("error message" + message)
             // console.log("another error message" + error)
             toast.error("Your message could not be sent. Please try again later")
-
         }
     }
 
