@@ -47,10 +47,15 @@ export default function CourseBrands(){
             <div className="flex flex-col px-[30px] w-[100%] gap-[40px] justify-center items-center py-[60px]">
                 <p className="text-center text-black font-semibold text-[18px] lg:text-[15px]">Loves by brands and partners</p>
                 <div className="flex flex-wrap w-[100%] justify-center items-center gap-[5px] lg:gap-[30px]">
+                    <p className="font-bold text-[15px] md:text-[30px] text-[#000000B2]">MSME</p>
+                    <p className="font-bold">|</p>
+                    <p className="font-bold text-[15px] md:text-[30px] text-[#000000B2]">Formserver</p>
+                    <p className="font-bold">|</p>
+                    <p className="font-bold text-[15px] md:text-[30px] text-[#000000B2]">Web3 Horizons</p>
+                    {/* <Image className="w-[50px] md:w-[150px]" src={img} alt =''/>
                     <Image className="w-[50px] md:w-[150px]" src={img} alt =''/>
                     <Image className="w-[50px] md:w-[150px]" src={img} alt =''/>
-                    <Image className="w-[50px] md:w-[150px]" src={img} alt =''/>
-                    <Image className="w-[50px] md:w-[150px]" src={img} alt =''/>
+                    <Image className="w-[50px] md:w-[150px]" src={img} alt =''/> */}
                 </div>
             </div>
             <div className="flex flex-col justify-center py-[30px] items-center">
