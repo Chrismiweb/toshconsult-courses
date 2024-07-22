@@ -1,4 +1,6 @@
 import img1 from '../image/Rectangle 32.png'
+import img4 from '../image/Rectangle 29.png'
+
 import img2 from '../image/Rectangle 33.png'
 import img3 from '../image/Rectangle 34.png'
 
@@ -10,7 +12,7 @@ import Link from 'next/link';
 export default function BackendPackages(){
     const packages = [
         {
-            img: img1,
+            img: img4,
             topic: "Fundamental of javascript",
             sub: "The beginners courses to be a pro. in javascript",
             price: "50,000",

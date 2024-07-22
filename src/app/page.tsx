@@ -28,7 +28,6 @@ export default function Home() {
           <CourseFaq/>
           <CourseEnroll/>
           <Footer/>
-
       </>
   );
 }

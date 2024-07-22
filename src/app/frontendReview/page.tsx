@@ -1,23 +1,23 @@
 import Image from "next/image"
-import img1 from '../image/Group 31.png'
+import img1 from '../image/vid1.png'
 import img2 from '../image/Group 34.png'
 import img3 from '../image/Group 37.png'
-import img4 from '../image/Group 32.png'
+import img4 from '../image/vid2.png'
 import img5 from '../image/Group 35.png'
 import img6 from '../image/Group 38.png'
-import img7 from '../image/Group 33.png'
+import img7 from '../image/vid3.png'
 import img8 from '../image/Group 36.png'
 import img9 from '../image/Group 39.png'
-
-
-
+import { IoPlayCircle } from "react-icons/io5";
 
 export default function FrontendReview(){
     const review1 = [
         {
             pics: img1,
             name: "Gbadegesin farouq",
-            rev: "Frontend developer, MSMEs Ecosystem"
+            rev: "Frontend developer, MSMEs Ecosystem",
+            link: "https://www.facebook.com/reel/1909893339396849/?mibextid=rS40aB7S9Ucbxw6v"
+
         },
         {
             pics: img2,
@@ -34,7 +34,10 @@ export default function FrontendReview(){
         {
             pics: img4,
             name: "Gbadegesin farouq",
-            rev: "Frontend developer, MSMEs Ecosystem"
+            rev: "Frontend developer, MSMEs Ecosystem",
+            link:"https://www.facebook.com/100090879831825/posts/183585191347474/?mibextid=rS40aB7S9Ucbxw6v"
+
+
         },
         {
             pics: img5,
@@ -51,7 +54,9 @@ export default function FrontendReview(){
         {
             pics: img7,
             name: "Gbadegesin farouq",
-            rev: "Frontend developer, MSMEs Ecosystem"
+            rev: "Frontend developer, MSMEs Ecosystem",
+            link:"https://www.facebook.com/100090879831825/posts/154398564266137/?mibextid=rS40aB7S9Ucbxw6v"
+
         },
         {
             pics: img8,
@@ -74,9 +79,12 @@ export default function FrontendReview(){
                 <div className="md:w-[25%] w-[80%] gap-[30px] flex flex-col">
                     {review1.map((r, index)=>(
                         <div className="w-[100%] gap-[7px] flex flex-col" key={index}>
-                            <div className="">
-                                <Image src={r.pics} alt="" />
-                            </div>
+                            <a target="_blank" href={r.link}>
+                                <div className="h-[350px] cursor-pointer flex justify-center items-center rounded-[20px] overflow-hidden">
+                                    <Image className="w-[full] h-full object-cover" src={r.pics} alt="" />
+                                    <IoPlayCircle className="absolute text-white text-[50px]" />
+                                </div>
+                            </a>
                             <h1 className="font-bold text-[16px]">{r.name}</h1>
                             <p className="text-[12px] font-semibold text-[#00000080]">{r.rev}</p>
                         </div>
@@ -85,9 +93,12 @@ export default function FrontendReview(){
                 <div className="md:w-[25%] w-[80%] md:mt-[70px] gap-[30px] flex flex-col">
                     {review2.map((r, index)=>(
                         <div className="w-[100%] gap-[7px] flex flex-col" key={index}>
-                            <div className="">
-                                <Image src={r.pics} alt="" />
-                            </div>
+                             <a target="_blank" href={r.link}>
+                                <div className="h-[350px] cursor-pointer flex justify-center items-center rounded-[20px] overflow-hidden">
+                                    <Image className="w-[full] h-full object-cover" src={r.pics} alt="" />
+                                    <IoPlayCircle className="absolute text-white text-[50px]" />
+                                </div>
+                            </a>
                             <h1 className="font-bold text-[15px]">{r.name}</h1>
                             <p className="text-[12px] font-semibold text-[#00000080]">{r.rev}</p>
                         </div>
@@ -96,9 +107,12 @@ export default function FrontendReview(){
                 <div className="md:w-[25%] w-[80%]  md:mt-[140px] gap-[30px] flex flex-col">
                     {review3.map((r, index)=>(
                         <div className="w-[100%] gap-[7px] flex flex-col" key={index}>
-                            <div className="">
-                                <Image src={r.pics} alt="" />
-                            </div>
+                             <a target="_blank" href={r.link}>
+                                <div className="h-[350px] cursor-pointer flex justify-center items-center rounded-[20px] overflow-hidden">
+                                    <Image className="w-[full] h-full object-cover" src={r.pics} alt="" />
+                                    <IoPlayCircle className="absolute text-white text-[50px]" />
+                                </div>
+                            </a>
                             <h1 className="font-bold text-[15px]">{r.name}</h1>
                             <p className="text-[12px] font-semibold text-[#00000080]">{r.rev}</p>
                         </div>

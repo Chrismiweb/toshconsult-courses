@@ -22,10 +22,18 @@ export default function Footer(){
                     <Image className='lg:w-[7vw] w-[30%]' src={logo} alt="" />
                 </div>
                 <div className='flex gap-[20px]  '>
+                    <a target='_blank' href="https://www.instagram.com/toshconsultinc?igsh=MTViY3A1Nnh5ZzhyeQ==">
                     <Image className='lg:w-[3vw] w-[10%] cursor-pointer' src={img1} alt="" />
+                    </a>
+                    <a target='_blank' href="https://x.com/toshconsult?s=21">
                     <Image className='lg:w-[3vw] w-[10%] cursor-pointer' src={img2} alt="" />
+                    </a>
+                    <a target='_blank' href="https://www.linkedin.com/company/toshconsult/">
                     <Image className='lg:w-[3vw] w-[10%] cursor-pointer' src={img4} alt="" />
+                    </a>
+                    <a target='_blank' href="https://www.facebook.com/toshconsult">
                     <Image className='lg:w-[3vw] w-[10%] cursor-pointer' src={img3} alt="" />
+                    </a>
                 </div>
             </div>
             <div className='lg:w-[80%] w-[90%] flex flex-col lg:flex-row justify-between '>

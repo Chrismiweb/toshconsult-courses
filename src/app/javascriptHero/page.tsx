@@ -15,6 +15,7 @@ export default function JavascriptHero(){
                 </div>
                 <div className="md:w-[45%] w-[100%]">
                     <Image className="rounded-[20px]" src={img} alt="" />
+                    
                 </div>
             </div>
         </div>

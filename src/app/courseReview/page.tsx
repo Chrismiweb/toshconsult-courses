@@ -86,8 +86,7 @@ export default function CourseReview(){
                                     <div className="absolute rounded-[20px] inset-0 bg-black opacity-50 "></div>
                                     <IoPlayCircle className="absolute text-white text-[50px]" />
                                 </div>
-                            </a>
-                            
+                            </a>                            
                         </div>
                         <div className="flex gap-[20px]">
                             <button onClick={handlePrevious} className="font-bold text-black text-[30px] lg:text-[20px]"><FaArrowLeft/></button>
