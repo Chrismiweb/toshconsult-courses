@@ -30,8 +30,8 @@ export default function CourseReview(){
         {
             comment : "At Toshconsult, we are committed to shaping your tech skills and empowering your career. Explore the unique benefits that set us apart and pave the way for your success.",
             pics: pics1,
-            name: "Bitero Chrismi",
-            position: "Frontend developer, MSME Ecosystem",
+            name: "Taofeeq Kolapo",
+            position: "Full-Stack developer, MSME Ecosystem",
             video : vids1,
             link: "https://www.facebook.com/reel/1909893339396849/?mibextid=rS40aB7S9Ucbxw6v"
         },
@@ -46,7 +46,7 @@ export default function CourseReview(){
         {
             comment : "empowering your career. Explore the unique benefits that set us apart and pave the way for your success.",
             pics: pics1,
-            name: "Mr Tolu Asiwaju",
+            name: "Faruq Olaniyi",
             position: "Frontend developer, MSME Ecosystem",
             video : vids3,
             link:"https://www.facebook.com/100090879831825/posts/154398564266137/?mibextid=rS40aB7S9Ucbxw6v"

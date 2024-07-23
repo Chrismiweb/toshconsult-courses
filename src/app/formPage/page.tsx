@@ -27,7 +27,8 @@ export default function FormPage(){
         setIsSending(true)
         e.preventDefault()
         try {
-        const baseUrl = "https://forms-io.onrender.com/submit-form/21a6cf9a-0088-40fd-84d0-9ddc0f73064b";
+            // const baseUrl = "https://forms-io.onrender.com/submit-form/21a6cf9a-0088-40fd-84d0-9ddc0f73064b";
+        const baseUrl = "https://forms-io.onrender.com/submit-form/990a2d13-ad8c-4729-b97e-1f06a5301f8f";
 
             const response: any = await fetch(baseUrl,{
                 method: "POST",
