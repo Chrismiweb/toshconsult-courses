@@ -10,6 +10,8 @@ import Navbar from "../navbar/page";
 import PythonHero from "../pythonHero/page";
 import PythonPrice from "../pythonPrice/page";
 import PythonPackages from "../pythonPackages/page";
+import WhatsappFloat from "../whatsappFloat/page";
+
 import type { Metadata } from "next";
 
 
@@ -31,6 +33,7 @@ export default function MobileApp(){
             <FrontendReview/>
             <CourseEnroll/>
             <Footer/>
+            <WhatsappFloat/>
             
             
         </>

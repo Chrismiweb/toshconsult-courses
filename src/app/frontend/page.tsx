@@ -7,6 +7,8 @@ import FrontendReview from "../frontendReview/page";
 import FrontendSteps from "../frontendSteps/page";
 import FrontendWhy from "../frontendWhy/page";
 import Navbar from "../navbar/page";
+import WhatsappFloat from "../whatsappFloat/page";
+
 import type { Metadata } from "next";
 
 
@@ -27,6 +29,7 @@ export default function Frontend(){
             <FrontendReview/>
             <CourseEnroll/>
             <Footer/>
+            <WhatsappFloat/>
             
         </>
     )

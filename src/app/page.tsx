@@ -8,6 +8,8 @@ import Footer from "./footer/page";
 import CourseFaq from "./courseFaq/page";
 import CourseEnroll from "./courseEnroll/page";
 import CourseReview from "./courseReview/page";
+import WhatsappFloat from "./whatsappFloat/page";
+
 import type { Metadata } from "next";
 
 
@@ -28,6 +30,7 @@ export default function Home() {
           <CourseFaq/>
           <CourseEnroll/>
           <Footer/>
+          <WhatsappFloat/>
       </>
   );
 }

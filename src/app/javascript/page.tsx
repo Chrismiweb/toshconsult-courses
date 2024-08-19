@@ -12,6 +12,8 @@ import PythonPrice from "../pythonPrice/page";
 import PythonPackages from "../pythonPackages/page";
 import JavascriptHero from "../javascriptHero/page";
 import JavascriptPackages from "../javascriptPackages/page";
+import WhatsappFloat from "../whatsappFloat/page";
+
 import type { Metadata } from "next";
 
 
@@ -33,6 +35,7 @@ export default function MobileApp(){
             <FrontendReview/>
             <CourseEnroll/>
             <Footer/>
+            <WhatsappFloat/>
             
             
         </>

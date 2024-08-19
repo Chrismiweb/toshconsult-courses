@@ -13,6 +13,8 @@ import PythonPackages from "../pythonPackages/page";
 import UiuxHero from "../uiuxHero/page";
 import UiuxPrice from "../uiuxPrice/page";
 import UiuxPackages from "../uiuxPackages/page";
+import WhatsappFloat from "../whatsappFloat/page";
+
 import type { Metadata } from "next";
 
 
@@ -35,6 +37,7 @@ export default function MobileApp(){
             <FrontendReview/>
             <CourseEnroll/>
             <Footer/>
+            <WhatsappFloat/>
             
             
         </>

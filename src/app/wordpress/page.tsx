@@ -12,6 +12,8 @@ import UiuxPackages from "../uiuxPackages/page";
 import WordpressHero from "../wordpressHero/page";
 import WordpressPrice from "../wordpressPrice/page";
 import WordpressPackages from "../wordpressPackage/page";
+import WhatsappFloat from "../whatsappFloat/page";
+
 import type { Metadata } from "next";
 
 
@@ -34,6 +36,7 @@ export default function Wordpress(){
             <FrontendReview/>
             <CourseEnroll/>
             <Footer/>
+            <WhatsappFloat/>
             
             
         </>

@@ -14,19 +14,19 @@ export default function FrontendReview(){
     const review1 = [
         {
             pics: img1,
-            name: "Gbadegesin farouq",
-            rev: "Frontend developer, MSMEs Ecosystem",
+            name: "Taofeeq Kolapo",
+            rev: "Full-Stack developer, MSMEs Ecosystem",
             link: "https://www.facebook.com/reel/1909893339396849/?mibextid=rS40aB7S9Ucbxw6v"
 
         },
         {
             pics: img2,
-            name: "Gbadegesin farouq",
+            name: "Mr John",
             rev: "Frontend developer, MSMEs Ecosystem"
         },
         {
             pics: img3,
-            name: "Gbadegesin farouq",
+            name: "Faruq Olaniyi",
             rev: "Frontend developer, MSMEs Ecosystem"
         },
     ]

@@ -15,6 +15,8 @@ import UiuxPrice from "../uiuxPrice/page";
 import UiuxPackages from "../uiuxPackages/page";
 import DigMarkHero from "../digmarkHero/page";
 import DigPackages from "../digMarkPackages/page";
+import WhatsappFloat from "../whatsappFloat/page";
+
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -36,6 +38,7 @@ export default function Digmark(){
             <FrontendReview/>
             <CourseEnroll/>
             <Footer/>
+            <WhatsappFloat/>
             
             
         </>

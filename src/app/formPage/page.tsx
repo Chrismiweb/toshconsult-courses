@@ -4,6 +4,8 @@ import Image from "next/image"
 import Link from "next/link"
 import logo from '../image/logo.png'
 import { ToastContainer, toast } from 'react-toastify';
+import WhatsappFloat from "../whatsappFloat/page";
+
   import 'react-toastify/dist/ReactToastify.css';
 
 export default function FormPage(){
@@ -121,6 +123,7 @@ export default function FormPage(){
         <Link href='/'>
             <p className="text-[#FB9B02] py-[30px] underline font-semibold text-center cursor-pointer text-[17px] w-[100%]">Back To Home</p>
         </Link>            
+        <WhatsappFloat/>
     </div>
     )
 }

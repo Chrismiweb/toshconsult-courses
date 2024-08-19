@@ -28,7 +28,7 @@ export default function CourseReview(){
 //   `;
     const review = [
         {
-            comment : "At Toshconsult, we are committed to shaping your tech skills and empowering your career. Explore the unique benefits that set us apart and pave the way for your success.",
+            comment : "ToshConsult Technologies turned me into a professional full-stack developer. Their training was top-notch. Now I'm working with leading companies globally. I couldn't have done it without them.",
             pics: pics1,
             name: "Taofeeq Kolapo",
             position: "Full-Stack developer, MSME Ecosystem",
@@ -44,7 +44,7 @@ export default function CourseReview(){
             link:"https://www.facebook.com/100090879831825/posts/183585191347474/?mibextid=rS40aB7S9Ucbxw6v"
         },
         {
-            comment : "empowering your career. Explore the unique benefits that set us apart and pave the way for your success.",
+            comment : "I knew nothing about development before joining ToshConsult. Their training was a game-changer. Today, I'm attracting clients from Nigeria and overseas. It's incredible how far I've come.",
             pics: pics1,
             name: "Faruq Olaniyi",
             position: "Frontend developer, MSME Ecosystem",

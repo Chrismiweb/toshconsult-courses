@@ -12,6 +12,8 @@ import MobileAppHero from "../mobileAppHero/page";
 import FrontendAchievement from "../frontendAchievement/page";
 import MobileAppPackages from "../mobileAppPackages/page";
 import MobileAppPrice from "../mobileAppPrice/page";
+import WhatsappFloat from "../whatsappFloat/page";
+
 import type { Metadata } from "next";
 
 
@@ -32,6 +34,7 @@ export default function MobileApp(){
             <FrontendReview/>
             <CourseEnroll/>
             <Footer/>
+            <WhatsappFloat/>
             
             
         </>

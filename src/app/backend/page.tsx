@@ -6,6 +6,7 @@ import FrontendSteps from "../frontendSteps/page";
 import FrontendReview from "../frontendReview/page";
 import CourseEnroll from "../courseEnroll/page";
 import Footer from "../footer/page";
+import WhatsappFloat from "../whatsappFloat/page";
 
 import Navbar from "../navbar/page";
 import BackendPric from "../backendPric/page";
@@ -31,6 +32,7 @@ export default function Backend(){
             <FrontendReview/>
             <CourseEnroll/>
             <Footer/>
+            <WhatsappFloat/>
             
             
         </>
